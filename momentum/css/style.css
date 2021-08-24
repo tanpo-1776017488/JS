@@ -1,0 +1,44 @@
+.hidden{
+    display: none;
+    
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top:10%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    
+}
+#login-form{
+    padding-left: 2%;
+    
+}
+.clock-box{
+    padding-top:10%;
+}
+.clock-box h1{
+    font-size:70px;
+}
+#quote{
+    padding-top:33%;
+    position: absolute;
+}
+.sentence{
+    font-weight: bold;
+    font:italic;
+}
+.author{
+    padding-left:33%;
+}
